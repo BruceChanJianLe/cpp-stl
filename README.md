@@ -54,6 +54,15 @@ Use along with other std algorithms to generate new algorihms.
 - std::is_partitioned_until() <returns an iterator where the first position where that predicate does not holds true anymore>
 - std::is_heap_until() <returns an iterator where the first position where that predicate does not holds true anymore>
 
+## Numeric Algorithms
+
+- std::count() <counts how many times an elements appear in a vector>
+- std::accumulate/std::reduce/std::transform_reduce() <return sum, and transform reduce can have user implement function>
+- std::partial_sum/std::inclusive_scan/std::exclusive_scan/std::transform_inclusive_scan/std::transform_exclusive_scan() <>
+- std::inner_product() <product of two vector based on each elements>
+- std::adjacent_difference <obtain the adjacent different in a vector>
+- std::sample() <takes a number and generate random sample of the vector with size as the given number>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
