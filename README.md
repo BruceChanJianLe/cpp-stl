@@ -121,6 +121,25 @@ Use along with other std algorithms to generate new algorihms.
 - std::iota(first, last, value) <fill from first to last but increment the value for each element>
 - std::replace(first, last, value1, value2) <replace any value1 with value2 in the range of first to last>
 
+## Changin Structure
+
+- std::remove(begin(collection), end(collection), value) <remove from begin of collection to end if value is found, and shrink the collection accordingly, and it returns an iterator to the position where the collection can be erase, use c.erase(std::remove(begin(c), end(c), value), end(c))>
+- std::unique(begin(collection), end(collection), value) <also does the same thing as remove, but it remove adjaction value, and shrink the collection, it will returns an iterator to the position where the collection can be erase, use c.erase(std::unique(begin(c), end(c), value), end(c))>
+
+### Copy
+
+Does same algorithm, but the result is place to a new collection instead of the given one.
+
+- std::remove_copy()
+- std::unique_copy()
+- std::reverse_copy()
+- std::rotate_copy()
+- std::replace_copy()
+- std::partition_copy()
+- std::partial_sort_copy()
+
+##
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
