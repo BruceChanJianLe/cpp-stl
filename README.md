@@ -63,6 +63,12 @@ Use along with other std algorithms to generate new algorihms.
 - std::adjacent_difference <obtain the adjacent different in a vector>
 - std::sample() <takes a number and generate random sample of the vector with size as the given number>
 
+## Querying a Property
+
+- std::all_of() <all elements satisfy the given predicate>
+- std::any_of() <at least one element satisfy the given predicate>
+- std::none_of() <none element satisfy the given predicate>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
