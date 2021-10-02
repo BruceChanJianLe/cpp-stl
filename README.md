@@ -106,6 +106,14 @@ Use along with other std algorithms to generate new algorihms.
 - std::includes(begin(a), end(a), begin(b), end(b), std::back_inserter(results)) <return true if all elements in b are in a>
 - std::merge(begin(a), end(a), begin(b), end(b), std::back_inserter(results)) <merge two sets>
 
+## Movers
+
+- std::copy(first, last, out)
+- std::move(first, last, out)
+- std::swap_ranges(first, last, out) <both sets have to be the same size... of course>
+- std::copy_backwards()
+- std::move_backwards()
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
