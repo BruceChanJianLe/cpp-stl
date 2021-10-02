@@ -65,9 +65,17 @@ Use along with other std algorithms to generate new algorihms.
 
 ## Querying a Property
 
-- std::all_of() <all elements satisfy the given predicate>
-- std::any_of() <at least one element satisfy the given predicate>
-- std::none_of() <none element satisfy the given predicate>
+- std::all_of() <all elements satisfy the given predicate, returns true if given empty collection>
+- std::any_of() <at least one element satisfy the given predicate, return false if given empty collection>
+- std::none_of() <none element satisfy the given predicate, return true if given empty collection>
+
+## Querying a Property on 2 Ranges
+
+- std::equal() <compare two vector of same size and element, if just want to make sure they have the same elements, use std::is_permutation() instead, return boolean>
+- std::lexicographical_compare() <compare which one is smaller, like {'a', 'b', 'c'}, is smaller than {'a','z'}, return boolean>
+- std::mismatch() <compares two vector and stop wherever they differ from each other, return a std::pair<iterator, iterator>>
+
+## 
 
 ## Reference
 
