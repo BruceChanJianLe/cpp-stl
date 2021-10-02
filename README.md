@@ -31,6 +31,14 @@ This repository demonstartes the cpp standard library.
 - std::prev_permutation <obtain previous permutation of a given vector>
 - std::reverse <reverse the order of a vector>
 
+## Secret Runes
+
+Use along with other std algorithms to generate new algorihms.
+
+### Partitioning-Sort-Heap
+
+- std::
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
