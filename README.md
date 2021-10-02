@@ -138,7 +138,7 @@ Does same algorithm, but the result is place to a new collection instead of the 
 - std::partition_copy()
 - std::partial_sort_copy()
 
-## If
+### If
 
 - std::find_if()
 - std::find_if_not()
