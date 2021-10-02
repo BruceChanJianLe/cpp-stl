@@ -23,6 +23,14 @@ This repository demonstartes the cpp standard library.
 - std::partition() <baesd on the predicate, and placing all the predicate ones infront and all others behind>
 - std::partition_point() <retrieve the partition point in the vector>
 
+## Other Permutation
+
+- std::rotate() <take last element and place at the begining of a vector>
+- std::shuffle <shuffle elements order in a vector randomly>
+- std::nex_permutation <obtain next permutation of a given vector>
+- std::prev_permutation <obtain previous permutation of a given vector>
+- std::reverse <reverse the order of a vector>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
