@@ -93,6 +93,10 @@ Use along with other std algorithms to generate new algorihms.
 - std::find_end() <looking for a sub-range but starting from the end>
 - std::find_first_of() <search any value of the sub-range that first occurs in the given range>
 
+- std::max_element() <return the iterator point to the max value>
+- std::min_element() <return the iterator point to the min value>
+- std::minmax_element() <return a std::pair of iterators point to the min and max value>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
