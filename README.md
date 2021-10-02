@@ -37,7 +37,22 @@ Use along with other std algorithms to generate new algorihms.
 
 ### Partitioning-Sort-Heap
 
-- std::
+### Stable
+
+- std::stable_sort() <it does what the algorithm does but keeps the order>
+- std::stable_partition() <it does what the algorithm does but keeps the order>
+
+### Is
+
+- std::is_sorted() <true if sorted>
+- std::is_partitioned() <true if is partitioned>
+- std::is_heap() <true if is heap>
+
+### Is Util
+
+- std::is_sorted_until() <returns an iterator where the first position where that predicate does not holds true anymore>
+- std::is_partitioned_until() <returns an iterator where the first position where that predicate does not holds true anymore>
+- std::is_heap_until() <returns an iterator where the first position where that predicate does not holds true anymore>
 
 ## Reference
 
