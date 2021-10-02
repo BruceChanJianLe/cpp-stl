@@ -97,6 +97,15 @@ Use along with other std algorithms to generate new algorihms.
 - std::min_element() <return the iterator point to the min value>
 - std::minmax_element() <return a std::pair of iterators point to the min and max value>
 
+## Algorithms of Sets
+
+- std::set_difference(begin(a), end(a), begin(b), end(b), std::back_inserter(results)) <takes two sets and return the element in the first one but not the second one>
+- std::set_intersection(begin(a), end(a), begin(b), end(b), std::back_inserter(results)) <returns the intersected elements>
+- std::set_union(begin(a), end(a), begin(b), end(b), std::back_inserter(results)) <returns the union elements in a set>
+- std::set_symmetric_difference(begin(a), end(a), begin(b), end(b), std::back_inserter(results)) <return the elements that are in a that are not in b, as well as the elements in b that are not in a>
+- std::includes(begin(a), end(a), begin(b), end(b), std::back_inserter(results)) <return true if all elements in b are in a>
+- std::merge(begin(a), end(a), begin(b), end(b), std::back_inserter(results)) <merge two sets>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
