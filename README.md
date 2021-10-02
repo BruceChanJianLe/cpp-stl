@@ -149,6 +149,11 @@ Does same algorithm, but the result is place to a new collection instead of the 
 - std::replace_copy_if()
 - std::copy_if()
 
+## Lonely Island
+
+- std::transform(begin(c), end(c), std::back_inserter(result), f()) <apply function f() to each element in collection and output to result>
+- std::for_each() <use to do side-effects>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
