@@ -163,6 +163,25 @@ Does same algorithm, but the result is place to a new collection instead of the 
 - std::uninitialized_default_construct()
 - std::uninitialized_value_construct()
 
+## _n
+
+- std::copy_n()
+- std::fill_n()
+- std::generate_n()
+- std::search_n()
+- std::for_each_n()
+- std::uninitialized_copy_n()
+- std::uninitialized_fill_n()
+- std::uninitialized_move_n()
+- std::uninitialized_default_construct_n()
+- std::uninitialized_value_construct_n()
+
+Example
+
+std::fill(begin(c), end(c), value) <fill begin to end of collection c with given value>
+std::fill_n(begin(collection), 5, value) <fill from begin of collection c with value up to the next 5>
+std::fill_n(std::back_inserter(collection), 5, value) <fill by with value up to the next 5 elements>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
