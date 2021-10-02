@@ -18,6 +18,11 @@ This repository demonstartes the cpp standard library.
 - std::sort_heap <repeated calling pop heap and obtain a sort>
 - std::inplace_merge <takes two sorted part of vector and combines them into a sorted vector>
 
+## Partitioning
+
+- std::partition() <baesd on the predicate, and placing all the predicate ones infront and all others behind>
+- std::partition_point() <retrieve the partition point in the vector>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
