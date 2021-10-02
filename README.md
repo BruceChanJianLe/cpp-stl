@@ -114,6 +114,13 @@ Use along with other std algorithms to generate new algorihms.
 - std::copy_backwards()
 - std::move_backwards()
 
+## Value Modifiers
+
+- std::fill(first last, value) <fill from first to last with given value>
+- std::generate(first, last, f()) <call a function f() for each elements>
+- std::iota(first, last, value) <fill from first to last but increment the value for each element>
+- std::replace(first, last, value1, value2) <replace any value1 with value2 in the range of first to last>
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
