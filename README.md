@@ -75,7 +75,23 @@ Use along with other std algorithms to generate new algorihms.
 - std::lexicographical_compare() <compare which one is smaller, like {'a', 'b', 'c'}, is smaller than {'a','z'}, return boolean>
 - std::mismatch() <compares two vector and stop wherever they differ from each other, return a std::pair<iterator, iterator>>
 
-## 
+## Searching a Value
+
+### Not Sorted
+
+- std::find() <takes begin and end and returns an iterator when found>
+- std::adjacent_find <takes begin and end and returns the first iterator where the next element is also the same value>
+
+### Sorted
+
+- std::equal_range() <find the range where value is to be search>
+- std::lower_bound() <find the first iterator of the range>
+- std::upper_bound() <find the iterator where the range ends, not is the match range>
+- std::binary_search() <return true if found, but does not tell you where it is in the vector>
+
+- std::search() <serach a sub-range in a given range>
+- std::find_end() <looking for a sub-range but starting from the end>
+- std::find_first_of() <search any value of the sub-range that first occurs in the given range>
 
 ## Reference
 
