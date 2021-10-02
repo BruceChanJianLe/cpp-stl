@@ -154,6 +154,15 @@ Does same algorithm, but the result is place to a new collection instead of the 
 - std::transform(begin(c), end(c), std::back_inserter(result), f()) <apply function f() to each element in collection and output to result>
 - std::for_each() <use to do side-effects>
 
+## Raw Memory
+
+- std::uninitialized_fill(ptr1, ptr2, value)
+- std::uninitialized_copy(ptr1, ptr2, value)
+- std::uninitialized_move(ptr1, ptr2, value) 
+- std::destroy(ptr1, ptr2)
+- std::uninitialized_default_construct()
+- std::uninitialized_value_construct()
+
 ## Reference
 
 - [video_link](https://www.youtube.com/watch?v=2olsGf6JIkU)
